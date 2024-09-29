@@ -1,0 +1,45 @@
+.column {
+    background-color: #f4f5f8;
+    border-radius: 8px;
+    width: 300px;
+    margin-right: 20px;
+    padding: 12px;
+  }
+  
+  .column-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .column-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .column-title img {
+    margin-right: 8px;
+  }
+  
+  .ticket-count {
+    background-color: #e8e8e8;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  
+  .column-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .add-icon {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  .more-actions {
+    cursor: pointer;
+  }
